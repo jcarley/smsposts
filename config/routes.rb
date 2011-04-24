@@ -1,7 +1,10 @@
 Smsposts::Application.routes.draw do
   get "users/new"
 
+  # sets the root of the app
   root :to => 'pages#home'
+  
+  # create named routes to a controller#action
   match '/contact', :to => 'pages#contact'
   match '/about', :to => 'pages#about'
   match '/help', :to => 'pages#help'
