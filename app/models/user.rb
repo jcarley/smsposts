@@ -12,4 +12,7 @@
 
 class User < ActiveRecord::Base
   attr_accessible :name, :email
+  
+  validate :name, :presense => true
+  
 end
