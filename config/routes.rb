@@ -1,5 +1,6 @@
 Smsposts::Application.routes.draw do
-  get "users/new"
+
+  resources :users
 
   # sets the root of the app
   root :to => 'pages#home'
