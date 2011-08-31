@@ -7,7 +7,7 @@ gem 'gravatar_image_tag'
 
 group :development do
 	gem 'rspec-rails'
-	gem 'annotate-models'
+	#gem 'annotate-models'
 end
 
 group :test do
